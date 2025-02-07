@@ -39,3 +39,16 @@ if(creditos >= 10 && promedio >= 8.5){
 
 // Agregar el mensaje de - Te hacen falta creditos 
 // Agregar el mensaje de - Tu promedio debe subir
+let nota = 30.0; // Puedes cambiar este valor para probar diferentes casos
+
+if (nota === "") {
+    console.log("No pusiste la nota");
+} else if (nota >= 90) {
+    console.log("Excelente");
+} else if (nota >= 75) {
+    console.log("Bien");
+} else if (nota >= 60) {
+    console.log("Suficiente");
+} else {
+    console.log("No apruebas");
+}
