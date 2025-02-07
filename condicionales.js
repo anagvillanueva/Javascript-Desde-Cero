@@ -16,3 +16,26 @@ if (tipoDeMascota === "Perro"){
 
 // Semaforo color = Rojo, Amarillo, Verde 
 // Rojo = Alto, Amarillo = Detente, Verde = Siga
+
+let edad = 17;
+let tieneLicencia = true;
+
+if (edad >= 18 && tieneLicencia) {
+    console.log("Puedes conducir");
+} else {
+    console.log("No puedes conducir");
+}
+
+// Para poder obtener una beca
+
+let creditos = 10; // Minimo 10 creditos
+let promedio = 7.5; // Minimo 8.5
+
+if(creditos >= 10 && promedio >= 8.5){
+    console.log("Tienes derecho a una beca");
+}else{
+    console.log("No tienes derecho a una beca");
+}
+
+// Agregar el mensaje de - Te hacen falta creditos 
+// Agregar el mensaje de - Tu promedio debe subir
