@@ -35,5 +35,5 @@ personas.shift(); // Elimina el primer elemento del arreglo
 console.log(personas);
 
 personas[1] = 'Monica'; // Modificar un elemento del arreglo
-console.log(personas);
+console.log(personas); 
 

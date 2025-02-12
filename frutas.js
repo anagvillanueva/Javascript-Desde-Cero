@@ -9,7 +9,7 @@ for (let indice = 0; indice < frutas.length; indice++) {
     let fruta = frutas[indice];
     if (conteoFrutas[fruta]) { 
         // Si la fruta ya existe, incrementar el contador
-        conteoFrutas[fruta]++;
+        conteoFrutas[fruta]++; // conteoFrutas[fruta] = conteoFrutas[fruta] + 1;
     } else {
         conteoFrutas[fruta] = 1; 
         // Si la fruta no existe, inicializar el contador en 1
