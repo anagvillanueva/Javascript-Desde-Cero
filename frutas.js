@@ -19,5 +19,5 @@ for (let indice = 0; indice < frutas.length; indice++) {
 // Imprimir en la consola la cantidad de cada tipo de fruta
 console.log("Conteo de frutas usando ciclo for:");
 for (let fruta in conteoFrutas) {
-    console.log(`${fruta}: ${conteoFrutas[fruta]}`);
+    console.log(`${fruta}: ${conteoFrutas[fruta]}`); // comillas invertidas o backticks 
 }
